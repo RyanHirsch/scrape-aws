@@ -1,12 +1,6 @@
 import $ from 'cheerio';
 
-function parse(data) {
-  return stuff(data);
-}
-
-export default parse;
-
-function stuff(data) {
+export default function parse(data) {
   const dom = $.load(data);
   const lists = dom('ul.itemizedlist')
     .map(function(idx, uls) {
