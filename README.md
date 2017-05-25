@@ -1,15 +1,3 @@
-# Starter Node-JS
+# scrape-aws
 
-A starter project for simple node things.
-
-Build the app
-
-```
-npm run build
-```
-
-Run a watcher durning dev
-
-```
-npm run dev
-```
+Scrape the AWS Lambda Page (<http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html>) for nodejs versions and supplied `aws-sdk` version.
